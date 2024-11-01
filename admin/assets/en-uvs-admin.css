@@ -1,0 +1,341 @@
+/**
+  User Guide Tab
+ */
+.en_user_guide {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 50%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.en_user_guide p {
+    font-size: 14px;
+}
+
+.en_user_guide .submit {
+    display: none;
+}
+
+/**
+  Quote Settings Tab
+ */
+#en_uvs_quote_settings span.description,
+#en_uvs_quote_settings tr td p.description,
+#en_uvs_connection_settings .description {
+    font-style: normal !important;
+}
+
+#en_uvs_quote_settings input[type="text"],
+#en_uvs_quote_settings select {
+    width: 350px !important;
+    border-radius: 1px;
+    height: 36px !important;
+}
+
+#en_uvs_quote_settings tbody {
+    display: block;
+}
+
+#en_uvs_quote_settings .en_uvs_services {
+    width: 49% !important;
+    display: inline-flex;
+}
+
+#en_uvs_quote_settings .en_uvs_services th {
+    width: 350px;
+}
+
+#en_uvs_quote_settings .en_uvs_service_markup th,
+#en_uvs_quote_settings .en_uvs_shipment_day th,
+#en_uvs_quote_settings tr.en_uvs_service_heading td,
+#en_uvs_quote_settings tr.en_uvs_service_hide td {
+    display: none;
+}
+
+#en_uvs_quote_settings .en_uvs_service_checkbox th,
+#en_uvs_quote_settings .en_uvs_service_checkbox td,
+#en_uvs_quote_settings .en_uvs_service_markup th,
+#en_uvs_quote_settings .en_uvs_service_markup td {
+    padding: 0px 0px 0px 10px !important;
+}
+
+#en_uvs_quote_settings .en_uvs_shipment_day,
+#en_uvs_quote_settings .en_uvs_all_shipment {
+    display: inline-block;
+}
+
+#en_uvs_quote_settings .en_uvs_service_all_select {
+    margin-bottom: 13px;
+}
+
+#en_uvs_quote_settings .en_uvs_service_all_select th {
+    padding-right: 10px !important;
+}
+
+#en_uvs_quote_settings .en_uvs_service_heading th {
+    font-size: 16px;
+}
+
+#en_uvs_quote_settings .en_uvs_disabled {
+    pointer-events: none;
+    opacity: 0.5;
+    display: inherit;
+    color: #dc3232;
+}
+
+#en_uvs_quote_settings .en_red_border {
+    border-color: red !important;
+}
+
+/**
+  Test Connection Tab
+ */
+#en_uvs_connection_settings ~ .submit {
+    margin-left: 336px;
+}
+
+#en_uvs_connection_settings input[type="text"],
+#en_uvs_connection_settings select {
+    width: 350px !important;
+    border-radius: 1px;
+    height: 36px !important;
+}
+
+.en_uvs_test_connection ~ .woocommerce-save-button {
+    text-transform: capitalize;
+    margin-left: 15px !important;
+}
+
+.en_connection_error {
+    color: #ff0000;
+    font-size: 13px;
+    font-weight: normal !important;
+    padding-left: 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/*label[for="en_connection_settings_user_id_uvs"]:after,*/
+label[for="uvs_small_licence_key"]:after {
+    content: " *";
+    color: red;
+}
+
+.en_connection_message, .en_settings_message {
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.en_warning_message {
+    margin: 5px 0 15px !important;
+    background: #fff;
+    border-left: 4px solid #ffb900;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+    padding: 1px 12px;
+}
+
+.en_quote_settings_sub_options th {
+    padding: 0 0 10px 15px;
+    margin-left: 10px !important;
+    font-weight: 400;
+}
+
+.en_quote_settings_sub_options td {
+    padding: 0 0 10px 15px;
+}
+
+#wpfooter {
+    display: none;
+}
+
+#en_add_dropship_btn + .submit {
+    display: none;
+}
+
+#en_uvs_quote_settings td select + span,
+#en_uvs_quote_settings td input[type='text'] + span {
+    display: block;
+}
+
+.en_uvs_carriers ~ .submit,
+#en_uvs_quote_settings ~ .submit {
+    float: right;
+}
+
+#en_uvs_quote_settings ~ .submit .woocommerce-save-button {
+  justify-content: center;
+  text-transform: capitalize;
+}
+
+/**
+Order widget detail on admin order page
+ */
+.en-order-list {
+    list-style: disc;
+    list-style-position: inside;
+}
+
+.en-order-list .en-order-sender-origin {
+    clear: both;
+}
+
+.en-order-heading {
+    text-decoration: underline;
+    margin: 4px 0px 4px 0px;
+    clear: both;
+}
+
+/**
+Rates on admin order page
+ */
+.en_admin_order_page_waiting_bar {
+    width: 100%;
+    height: 20px;
+    border: 1px solid #2980b9;
+    border-radius: 3px;
+    background-image: repeating-linear-gradient(
+            -45deg,
+            #2980b9,
+            #2980b9 11px,
+            #eee 10px,
+            #eee 20px
+    );
+    background-size: 28px 28px;
+    animation: move .5s linear infinite;
+}
+
+/**
+Product detail page
+ */
+._en_hazardous_material + .description {
+    font-style: normal;
+    font-size: 12px;
+}
+
+/**
+Plans
+ */
+.wild_disabled_me {
+    float: left;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.heading .en_heading_left {
+    float: left;
+}
+
+.tr_disabled_me {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.disabled_me {
+    pointer-events: none;
+    opacity: 0.5;
+    display: inherit;
+    color: #dc3232;
+}
+
+.en_package_notify a {
+    font-size: 17px;
+    font-weight: bold;
+    margin: 5px 0 0 6px;
+    display: inline-block;
+}
+
+.en_pakage_notify_instore_warehouse a,
+.en_package_notify a,
+.en_pakage_notify_local_warehouse a {
+    text-decoration: none;
+    color: red;
+}
+
+.en_pakage_notify_instore_warehouse a {
+    margin: 0 0 0 45px;
+}
+
+.en_pakage_notify_local_warehouse a {
+    margin: 0 0 0 51px;
+}
+
+.quote_section_class_spq_sbs {
+    padding: 0px 15px 0px 15px;
+}
+/* fdo va */
+.en-coupon-code-div{
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-left-width: 4px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+    margin: 5px 15px 2px;
+    padding: 1px 12px;
+}
+
+.en-coupon-notice{
+    border-left-color: #72aee6;
+}
+
+.en-coupon-success{
+    border-left-color: #00a32a;
+}
+
+.en-coupon-error{
+    border-left-color: #d63638;
+}
+
+.en-coupon-btn-div{
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.en-error-message{
+    color: #dc3232 !important;
+}
+/*fdo va*/
+/* Create two equal columns that floats next to each other */
+.half-column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Clear floats after the columns */
+.parent-column:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.dn {
+    display:none;
+}
+.dnblock {
+    float: none;
+    text-align: center;
+    width: auto;
+    padding-top: 0px;
+}
+.user_guide_fdo {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 70%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+.user_guide_fdo p.submit {
+    display: none;
+}
+#freightdesk_online_id {
+    width: 98%;
+    padding: 3px;
+}
+#en_uvs_connection_settings tr .titledesc {
+    width: 300px;
+}
